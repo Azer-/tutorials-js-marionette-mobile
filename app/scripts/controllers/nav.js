@@ -21,7 +21,7 @@ function (Marionette, Movies, MovieListView, MovieDetailsView) {
     },
 
     showMovie: function (id) {
-      this.region.show(new MovieDetailsView({
+      return this.region.show(new MovieDetailsView({
         model: this.movies.get(id)
       }));
     }

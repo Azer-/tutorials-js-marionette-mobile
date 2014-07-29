@@ -10,6 +10,6 @@ define([
     it('should have the correct number of elements', function () {
       var movies = getMovies(data);
       movies.length.should.eq(8);
-    })
+    });
   });
 });
